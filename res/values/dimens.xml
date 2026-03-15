@@ -1,0 +1,58 @@
+<resources>
+    <!-- Home -->
+    <dimen name="home_padding">16dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_corner">8dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_padding">12dp</dimen>
+    <dimen name="poster_width">80dp</dimen>
+    <dimen name="poster_height">120dp</dimen>
+    <dimen name="card_text_padding">12dp</dimen>
+    <dimen name="movie_title_size">18sp</dimen>
+    <dimen name="movie_genre_size">14sp</dimen>
+    <dimen name="card_action_margin">8dp</dimen>
+    <dimen name="trailer_icon_size">40dp</dimen>
+    <dimen name="book_button_height">40dp</dimen>
+    <dimen name="book_button_margin">8dp</dimen>
+
+    <!-- Seat -->
+    <dimen name="seat_padding">16dp</dimen>
+    <dimen name="selected_movie_size">20sp</dimen>
+    <dimen name="seat_movie_margin">16dp</dimen>
+    <dimen name="select_seats_size">18sp</dimen>
+    <dimen name="select_seats_margin">8dp</dimen>
+    <dimen name="seat_grid_padding">8dp</dimen>
+    <dimen name="seat_grid_margin">16dp</dimen>
+    <dimen name="seat_button_width">48dp</dimen>
+    <dimen name="seat_button_height">48dp</dimen>
+    <dimen name="selected_seats_size">16sp</dimen>
+    <dimen name="selected_seats_margin">16dp</dimen>
+    <dimen name="button_bar_margin">16dp</dimen>
+    <dimen name="button_spacing">8dp</dimen>
+
+    <!-- Snacks -->
+    <dimen name="snacks_padding">16dp</dimen>
+    <dimen name="snacks_title_size">20sp</dimen>
+    <dimen name="snacks_title_margin">16dp</dimen>
+    <dimen name="snack_item_margin">12dp</dimen>
+    <dimen name="snack_item_padding">8dp</dimen>
+    <dimen name="snack_image_size">60dp</dimen>
+    <dimen name="snack_text_padding">8dp</dimen>
+    <dimen name="snack_name_size">16sp</dimen>
+    <dimen name="snack_price_size">14sp</dimen>
+    <dimen name="quantity_button_size">40dp</dimen>
+    <dimen name="quantity_text_width">40dp</dimen>
+    <dimen name="quantity_text_height">40dp</dimen>
+    <dimen name="quantity_text_size">16sp</dimen>
+    <dimen name="snacks_total_size">18sp</dimen>
+    <dimen name="snacks_total_margin">16dp</dimen>
+    <dimen name="confirm_button_height">48dp</dimen>
+
+    <!-- Summary -->
+    <dimen name="summary_padding">16dp</dimen>
+    <dimen name="summary_text_size">18sp</dimen>
+    <dimen name="summary_item_margin">8dp</dimen>
+    <dimen name="summary_grand_size">20sp</dimen>
+    <dimen name="summary_grand_margin">16dp</dimen>
+    <dimen name="send_button_height">48dp</dimen>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#DB1414</color>
+
+    <!-- Splash -->
+    <color name="splash_bg">#FF000000</color>
+
+    <!-- Onboarding -->
+    <color name="onboarding_bg">#F5F5F5</color>
+    <color name="primary">#6200EE</color>
+
+    <!-- Home -->
+    <color name="home_bg">#FF000000</color>
+    <color name="movie_title">#212121</color>
+    <color name="movie_genre">#757575</color>
+
+    <!-- Seat Selection -->
+    <color name="seat_bg">#FFFFFF</color>
+    <color name="selected_movie">#212121</color>
+    <color name="select_seats">#757575</color>
+    <color name="selected_seats">#212121</color>
+    <color name="seat_available">#4CAF50</color>
+    <color name="seat_selected">#2196F3</color>
+    <color name="seat_booked">#9E9E9E</color>
+
+    <!-- Snacks -->
+    <color name="snacks_bg">#FFFFFF</color>
+    <color name="snacks_title">#212121</color>
+    <color name="snack_name">#212121</color>
+    <color name="snack_price">#757575</color>
+    <color name="snacks_total">#212121</color>
+
+    <!-- Summary -->
+    <color name="summary_bg">#FFFFFF</color>
+    <color name="summary_text">#212121</color>
+    <color name="summary_grand">#6200EE</color>
+</resources>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">CineFAST</string>
+
+    <!-- Splash / Onboarding -->
+    <string name="get_started">Get Started</string>
+
+    <!-- Home -->
+    <string name="movie1_name">Inception</string>
+    <string name="movie1_genre">Sci-Fi (2h 28m)</string>
+    <string name="movie2_name">The Dark Knight</string>
+    <string name="movie2_genre">Action (2h 32m)</string>
+    <string name="movie3_name">Interstellar</string>
+    <string name="movie3_genre">Adventure (2h 49m)</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="trailer">Trailer</string>
+    <string name="book_seats">Book Seats</string>
+
+    <!-- Seat Selection -->
+    <string name="placeholder_movie">Movie Name</string>
+    <string name="select_seats">Select Seats</string>
+    <string name="selected_seats_0">Selected Seats: 0</string>
+    <string name="selected_seats">Selected Seats: %d</string>
+    <string name="proceed_to_snacks">Proceed to Snacks</string>
+    <string name="book_seats_direct">Book Seats</string>
+    <string name="select_seat_warning">Select at least one seat</string>
+    <string name="seat_booked">This seat is already booked</string>
+    <string name="movie_prefix">Movie:</string>
+
+    <!-- Snacks -->
+    <!-- Snack descriptions -->
+    <string name="popcorn_desc">Large / Buttered</string>
+    <string name="nachos_desc">With Cheese Dip</string>
+    <string name="softdrink_desc">Large / Any Flavor</string>
+    <string name="candymix_desc">Assorted Candies</string>
+
+
+    <string name="snacks_title">Snacks &amp; Drinks</string>
+    <string name="popcorn">Popcorn</string>
+    <string name="nachos">Nachos</string>
+    <string name="softdrink">Soft Drink</string>
+    <string name="candymix">Candy Mix</string>
+    <string name="price_popcorn">5</string>
+    <string name="price_nachos">6</string>
+    <string name="price_softdrink">3</string>
+    <string name="price_candymix">4</string>
+    <string name="price_format">$%d</string>
+    <string name="snacks_total_0">Total: $0</string>
+    <string name="snacks_total">Total: $%d</string>
+    <string name="confirm">Confirm</string>
+    <string name="snack_image">Snack image</string>
+
+    <!-- Summary -->
+    <string name="summary_movie_placeholder">Movie: </string>
+    <string name="summary_seats_placeholder">Seats: </string>
+    <string name="summary_ticket_placeholder">Tickets: $</string>
+    <string name="summary_snacks_placeholder">Snacks: $</string>
+    <string name="summary_grand_placeholder">Total: $</string>
+    <string name="summary_movie">Movie: %s</string>
+    <string name="summary_seats">Seats: %d</string>
+    <string name="summary_ticket">Tickets: $%d</string>
+    <string name="summary_snacks">Snacks: $%d</string>
+    <string name="summary_grand">Total: $%d</string>
+    <string name="send_ticket">Send Ticket</string>
+    <string name="share_via">Share via</string>
+    <string name="share_body">Movie: %s\nSeats: %d\nTotal: $%d</string>
+
+</resources>
