@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class OnboardingActivity extends AppCompatActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected  onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_onboarding);
 
