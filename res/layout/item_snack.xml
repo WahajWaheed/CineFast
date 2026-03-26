@@ -1,83 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:background="@android:drawable/list_selector_background"
-    android:padding="12dp">
+    android:padding="12dp"
+    android:background="@color/black">
 
     <ImageView
         android:id="@+id/snack_image"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:scaleType="centerCrop"
-        android:contentDescription="@string/snack_image" />
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside" />
 
     <LinearLayout
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical"
-        android:paddingStart="12dp"
-        android:paddingLeft="12dp"
-        android:paddingEnd="8dp"
-        android:paddingRight="8dp">
+        android:layout_toEndOf="@id/snack_image"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/snack_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/snack_name" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/snack_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="14sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="2dp" />
+            android:textColor="#BDBDBD"
+            android:textSize="12sp"
+            android:visibility="gone" />
 
         <TextView
             android:id="@+id/snack_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#BDBDBD"
             android:textSize="16sp"
-            android:textStyle="bold"
-            android:textColor="@color/snack_price"
             android:layout_marginTop="4dp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_vertical">
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_minus"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:padding="0dp"
             android:text="-"
-            android:enabled="false"
-            style="@style/Widget.CineFAST.QuantityButton" />
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:backgroundTint="#FF0000"
+            app:cornerRadius="8dp" />
 
         <TextView
             android:id="@+id/tv_quantity"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:text="0"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
             android:gravity="center"
+            android:text="0"
+            android:textColor="@color/white"
             android:textSize="16sp"
-            android:textColor="@color/black" />
+            android:layout_marginHorizontal="8dp" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_plus"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:padding="0dp"
             android:text="+"
-            style="@style/Widget.CineFAST.QuantityButton" />
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:backgroundTint="#FF0000"
+            app:cornerRadius="8dp" />
     </LinearLayout>
-
-</LinearLayout>
+</RelativeLayout>
